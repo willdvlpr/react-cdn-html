@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- external style sheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- page title -->
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- page container -->
+    <div class="login">
+      <h1 class="login__title">Welcome</h1>
+      <!-- login container -->
+      <div class="login__container">
+        <!-- username input -->
+        <div class="login__container__input">
+          <input type="text" placeholder="username" />
+        </div>
+        <!-- password input -->
+        <div class="login__container__input">
+          <input type="password" placeholder="password" />
+        </div>
+      </div>
+
+      <div id="button"></div>
+    </div>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <script src="button.js"></script>
+  </body>
+</html>
